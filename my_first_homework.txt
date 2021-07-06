@@ -22,5 +22,19 @@
 
 Заданнi павышанай складанасцi*:
 1) Отправить http запрос на сервер- curl - XPOST https://api.quarantine.country/api/v1/regions;
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13 - vim attempt.sh 
+
+#!/bin/bush
+cd test_folder
+mkdir f1 f2  f3
+cd f1
+touch one.txt two.txt three.txt four.json five.json
+mkdir f4 f5 f6
+ls-l
+mv one.txt five.json f4
+
+Esc + : + wq
+
+bash attempt.sh
 
 
